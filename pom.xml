@@ -43,6 +43,37 @@
           <artifactId>amqp-client</artifactId>
           <version>${amqp-client}</version>
       </dependency>
+
+      <dependency>
+          <groupId>com.bkjk.encryption</groupId>
+          <artifactId>encryption</artifactId>
+          <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>RELEASE</version>
+      </dependency>
+
+      <dependency>
+          <groupId>com.alibaba</groupId>
+          <artifactId>fastjson</artifactId>
+          <version>1.2.28</version>
+      </dependency>
+
+      <!-- guava -->
+      <dependency>
+          <groupId>com.google.guava</groupId>
+          <artifactId>guava</artifactId>
+          <version>14.0</version>
+      </dependency>
+
+      <!--接入dozer-->
+      <dependency>
+          <groupId>net.sf.dozer</groupId>
+          <artifactId>dozer</artifactId>
+          <version>5.2.1</version>
+      </dependency>
   </dependencies>
   <build>
     <finalName>maven_test4</finalName>

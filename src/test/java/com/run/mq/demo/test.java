@@ -1,4 +1,4 @@
-package com.run.demo;
+package com.run.mq.demo;
 
 /**
  * @author : hewei
